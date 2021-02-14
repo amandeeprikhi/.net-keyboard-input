@@ -104,6 +104,7 @@ namespace PGPDecryption
                 {
                     //Console.WriteLine("Copying Data!!!!");
                     System.IO.File.Copy(sourceFile, destFile, true);
+                    //Test
                 }
                 catch (Exception e)
                 {
